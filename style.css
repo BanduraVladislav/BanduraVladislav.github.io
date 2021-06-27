@@ -107,7 +107,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 750px;
+    height: 100vh;
     padding-top: 100px;
     text-align: center;
     background: #31344e url(img/spart.jpg) center no-repeat;
@@ -254,13 +254,14 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin: 95px 0;
+
 }
 
 .features_item {
-    width: 33.33333%;
+    width: 25%;
     text-align: center;
     padding: 0 40px;
-    margin: 25px 0;
+    margin: 25px auto;
 
 
 
@@ -336,6 +337,7 @@ p {
 
 .works_features{
     max-width: 500px;
+    
 }
 
 .works_ff_name{
@@ -346,6 +348,17 @@ p {
     font-weight: 500;
 }
 
+.works_stickers{
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    font-weight: 700;;
+}
+
+.stickers_item{
+    width: 25%;
+
+}
 
 /*Team====================================================================================*/
 
@@ -365,6 +378,7 @@ p {
     background-blend-mode: none;
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 .team_inner {
@@ -835,3 +849,33 @@ p {
         right: -100;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
